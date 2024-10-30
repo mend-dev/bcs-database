@@ -1,5 +1,4 @@
 <script lang="ts">
-
 	import CardJson from "../../lib/data/cards.json";
 	import HeroJson from "../../lib/data/heroes.json";
 	

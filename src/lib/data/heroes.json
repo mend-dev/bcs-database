@@ -1,109 +1,109 @@
 [
 	{
 		"name": "Quincy",
-		"icon": "assets/hero-icons/QuincyIcon.png",
+		"icon": "QuincyIcon",
 		"abilities": [
 			{
 				"name": "Arrow Shot",
 				"passive": false,
 				"cost": 3,
 				"effect": "Deal 30 damage to target Bloon",
-				"icon": "assets/ability-icons/QuincyAbility1.png"
+				"icon": "QuincyAbility1"
 			},
 			{
 				"name": "Perceptive Shot",
 				"passive": true,
 				"cost": 6,
 				"effect": "Deal 10 damage to every enemy Bloon spawned",
-				"icon": "assets/ability-icons/QuincyAbility2.png"
+				"icon": "QuincyAbility2"
 			},
 			{
 				"name": "Flurry of Arrows",
 				"passive": false,
 				"cost": 9,
 				"effect": "Deal 50 damage to all enemy Bloons",
-				"icon": "assets/ability-icons/QuincyAbility3.png"
+				"icon": "QuincyAbility3"
 			}
 		]
 	},
 	{
 		"name": "Gwendolin",
-		"icon": "assets/hero-icons/GwendolinIcon.png",
+		"icon": "GwendolinIcon",
 		"abilities": [
 			{
 				"name": "Fireball",
 				"passive": false,
 				"cost": 5,
 				"effect": "Set target Bloon on fire. Burning Bloons take 30 damage per turn",
-				"icon": "assets/ability-icons/GwenAbility1.png"
+				"icon": "GwenAbility1"
 			},
 			{
 				"name": "Heat It Up",
 				"passive": true,
 				"cost": 10,
 				"effect": "Increase Damage of your Monkeys by 5",
-				"icon": "assets/ability-icons/GwenAbility2.png"
+				"icon": "GwenAbility2"
 			},
 			{
 				"name": "Flame Strike",
 				"passive": false,
 				"cost": 20,
 				"effect": "Sets all enemy Bloons on fire. Bloons already on fire take 200 Damage instead",
-				"icon": "assets/ability-icons/GwenAbility3.png"
+				"icon": "GwenAbility3"
 			}
 		]
 	},
 	{
 		"name": "Amelia",
-		"icon": "assets/hero-icons/AmeliaIcon.png",
+		"icon": "AmeliaIcon",
 		"abilities": [
 			{
 				"name": "Bloon Shield",
 				"passive": true,
 				"cost": 4,
 				"effect": "On Turn End: Last friendly Bloon gains 30 Shield",
-				"icon": "assets/ability-icons/AmeliaAbility1.png"
+				"icon": "AmeliaAbility1"
 			},
 			{
 				"name": "Act of Power",
 				"passive": false,
 				"cost": 10,
 				"effect": "Your next Power Card costs 4 less (minimum 0)",
-				"icon": "assets/ability-icons/AmeliaAbility2.png"
+				"icon": "AmeliaAbility2"
 			},
 			{
 				"name": "Grand Disappearance",
 				"passive": false,
 				"cost": 18,
 				"effect": "Remove target Monkey",
-				"icon": "assets/ability-icons/AmeliaAbility3.png"
+				"icon": "AmeliaAbility3"
 			}
 		]
 	},
 	{
 		"name": "Obyn",
-		"icon": "assets/hero-icons/ObynIcon.png",
+		"icon": "ObynIcon",
 		"abilities": [
 			{
 				"name": "Summon Wolf",
 				"passive": false,
 				"cost": 5,
 				"effect": "Add a Wolf card to your hand",
-				"icon": "assets/ability-icons/ObynAbility1.png"
+				"icon": "ObynAbility1"
 			},
 			{
 				"name": "Nature's Shield",
 				"passive": true,
 				"cost": 8,
 				"effect": "On Turn End: Obyn gains 20 Shield",
-				"icon": "assets/ability-icons/ObynAbility2.png"
+				"icon": "ObynAbility2"
 			},
 			{
 				"name": "Spirit Strike",
 				"passive": false,
 				"cost": 13,
 				"effect": "Deal 100 damage to a Bloon and gain 2 Gold",
-				"icon": "assets/ability-icons/ObynAbility3.png"
+				"icon": "ObynAbility3"
 			}
 		]
 	}
