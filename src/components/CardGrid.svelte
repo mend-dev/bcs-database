@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from "$app/paths";
 	import CardDisplay from "./CardDisplay.svelte";
 
 
@@ -47,7 +48,7 @@
 			typeFilters.push("Tower");
 		}
 		typeFilters = [...typeFilters]
-	}}><img src={typeFilters.includes("Tower") ? "/ui-icons/FilterMonkeysOn.png" : "/ui-icons/FilterMonkeysOff.png"} alt="toggletowers" /></button>
+	}}><img src={typeFilters.includes("Tower") ? `${base}/ui-icons/FilterMonkeysOn.png` : `${base}/ui-icons/FilterMonkeysOff.png`} alt="toggletowers" /></button>
 
 	<button on:click={() => {
 		if (typeFilters.includes("Bloon")) {
@@ -56,7 +57,7 @@
 			typeFilters.push("Bloon");
 		}
 		typeFilters = [...typeFilters]
-	}}><img src={typeFilters.includes("Bloon") ? "/ui-icons/FilterBloonsOn.png" : "/ui-icons/FilterBloonsOff.png"} alt="togglebloons" /></button>
+	}}><img src={typeFilters.includes("Bloon") ? `${base}/ui-icons/FilterBloonsOn.png` : `${base}/ui-icons/FilterBloonsOff.png`} alt="togglebloons" /></button>
 
 	<button on:click={() => {
 		if (typeFilters.includes("Power")) {
@@ -65,7 +66,7 @@
 			typeFilters.push("Power");
 		}
 		typeFilters = [...typeFilters]
-	}}><img src={typeFilters.includes("Power") ? "/ui-icons/FilterPowersOn.png" : "/ui-icons/FilterPowersOff.png"} alt="togglepowers" /></button>
+	}}><img src={typeFilters.includes("Power") ? `${base}/ui-icons/FilterPowersOn.png` : `${base}/ui-icons/FilterPowersOff.png`} alt="togglepowers" /></button>
 </div>
 
 <div class="grid grid-cols-8">

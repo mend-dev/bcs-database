@@ -1,5 +1,5 @@
 <script lang="ts">
-
+	import { base } from "$app/paths";
 	type CardData = {
 		name: string,
 		cost: number,
@@ -31,7 +31,7 @@
 <div>
 	
 	<button on:click={CardClicked}>
-		<img src={`/card-icons/${card.name.replaceAll(" ", "")}_Icon.png`} alt="Card" />
+		<img src={`${base}/card-icons/${card.name.replaceAll(" ", "")}_Icon.png`} alt="Card" />
 		<h4>{card.name}</h4>
 	</button>
 </div>
