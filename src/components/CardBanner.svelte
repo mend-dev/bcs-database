@@ -32,11 +32,11 @@
 <div class="w-full">
 	
 	<button class="w-full flex flex-row justify-between aspect-[13/2] gap-1 bg-cover"
-		style={`background-image: url(src/lib/assets/card-banners/CardBanner${card.type.replaceAll(" ", "")}.png);`}
+		style={`background-image: url(/card-banners/CardBanner${card.type.replaceAll(" ", "")}.png);`}
 	 	on:click={BannerClicked}>
 		
 		<div class="w-4/5 flex flex-row gap-2">
-			<img class="aspect-square m-[-0.15rem]" src={`src/lib/assets/card-icons/${card.name.replaceAll(" ", "")}_Icon.png`} alt="CardIcon" />
+			<img class="aspect-square m-[-0.15rem]" src={`/card-icons/${card.name.replaceAll(" ", "")}_Icon.png`} alt="CardIcon" />
 
 			<h4 class="w-full flex items-center text-outline">{card.name}</h4>
 		</div>

@@ -31,7 +31,7 @@
 <div>
 	
 	<button on:click={CardClicked}>
-		<img src={`src/lib/assets/card-icons/${card.name.replaceAll(" ", "")}_Icon.png`} alt="Card" />
+		<img src={`/card-icons/${card.name.replaceAll(" ", "")}_Icon.png`} alt="Card" />
 		<h4>{card.name}</h4>
 	</button>
 </div>

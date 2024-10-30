@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { base } from "$app/paths";
 	import AbilityDisplay from "./AbilityDisplay.svelte";
 
 	type HeroData = {
@@ -24,7 +23,7 @@
 
 <div class="flex flex-col element p-2">
 	<button class="flex flex-col" on:click={HeroClicked}>
-		<img src={`src/lib/assets/hero-icons/${hero.icon}.png`} alt="Quincy" />
+		<img src={`/hero-icons/${hero.icon}.png`} alt="Quincy" />
 		<span class="bcs-text bcs-text-lg">{hero.name}</span>
 	</button>
 	<div class="flex flex-col gap-1">
