@@ -1,18 +1,19 @@
 <script lang="ts">
+
 	type CardData = {
 		name: string,
 		cost: number,
 		type: string,
 		rarity: string
 		category: string,
-		hero: string,
-		health: number,
-		delay: number,
-		charges: number,
-		base: string,
-		attack: number,
-		ammo: number,
-		reload: number,
+		hero?: string,
+		health?: number,
+		delay?: number,
+		charges?: number,
+		base?: string,
+		attack?: number,
+		ammo?: number,
+		reload?: number,
 		effect: string
 	}
 

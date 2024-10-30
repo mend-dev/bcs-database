@@ -1,6 +1,8 @@
 <script lang="ts">
-	import type { PageData } from "./$types";
 
+	import CardJson from "../../lib/data/cards.json";
+	import HeroJson from "../../lib/data/heroes.json";
+	
 	import { Accordion, AccordionItem } from "@skeletonlabs/skeleton";
 	import CardBanner from "../../components/CardBanner.svelte";
 	import DeckName from "../../components/DeckName.svelte";
@@ -16,14 +18,14 @@
 		type: string,
 		rarity: string
 		category: string,
-		hero: string,
-		health: number,
-		delay: number,
-		charges: number,
-		base: string,
-		attack: number,
-		ammo: number,
-		reload: number,
+		hero?: string,
+		health?: number,
+		delay?: number,
+		charges?: number,
+		base?: string,
+		attack?: number,
+		ammo?: number,
+		reload?: number,
 		effect: string
 	}
 	
@@ -39,9 +41,8 @@
 		}[]
 	}
 
-	export let data: { cards: CardData[], heroes: HeroData[] };
-	let cards: CardData[] = data["cards"];
-	let heroes: HeroData[] = data["heroes"]
+	let cards: CardData[] = CardJson as CardData[];
+	let heroes: HeroData[] = HeroJson as HeroData[];
 
 
 	let hero: HeroData | null = null;
