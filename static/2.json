@@ -1,0 +1,371 @@
+[
+	{
+		"name": "Bloontonium Cache",
+		"cost": 0,
+		"type": "Power",
+		"rarity": "Common",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Gain 5 Bloontonium"
+	},
+	{
+		"name": "Cash Drop",
+		"cost": 0,
+		"type": "Power",
+		"rarity": "Common",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Gain 1  Gold"
+	},
+	{
+		"name": "Favored Trade",
+		"cost": 0,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Remove friendly Monkey and gain half its GOld cost"
+	},
+	{
+		"name": "It's All On Fire Now",
+		"cost": 1,
+		"type": "Power",
+		"rarity": "Common",
+		"category": "Basic",
+		"hero": "Gwendolin",
+		"effect": "Set target Bloon on fire. If already on fire, deal 50 damage"
+	},
+	{
+		"name": "Mana Shield",
+		"cost": 1,
+		"type": "Power",
+		"rarity": "Common",
+		"category": "Exotic",
+		"hero": "",
+		"effect": "Gain 50 Shield"
+	},
+	{
+		"name": "Whoops",
+		"cost": 1,
+		"type": "Power",
+		"rarity": "Uncommon",
+		"category": "Advanced",
+		"hero": "",
+		"effect": "Target Monkey loses all Ammo"
+	},
+	{
+		"name": "Archer's Instinct",
+		"cost": 2,
+		"type": "Power",
+		"rarity": "Super Rare",
+		"category": "Exotic",
+		"hero": "Quincy",
+		"effect": "Pick 3"
+	},
+	{
+		"name": "Fortify",
+		"cost": 2,
+		"type": "Power",
+		"rarity": "Common",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Give a friendly Bloon +50 Health"
+	},
+	{
+		"name": "Storm of Arrows",
+		"cost": 2,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Advanced",
+		"hero": "Quincy",
+		"effect": "Deal 150 Damage to 2 random opposing Bloons"
+	},
+	{
+		"name": "Stunned",
+		"cost": 2,
+		"type": "Power",
+		"rarity": "Common",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Stun target Monkey for 1 turn"
+	},
+	{
+		"name": "Bed Time",
+		"cost": 3,
+		"type": "Power",
+		"rarity": "Uncommon",
+		"category": "Advanced",
+		"hero": "",
+		"effect": "Remove target enemy Monkey with 30 or less Attack Power"
+	},
+	{
+		"name": "Bloon Strike",
+		"cost": 3,
+		"type": "Power",
+		"rarity": "Common",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Deal 50 Damage to enemy Hero"
+	},
+	{
+		"name": "Firestorm",
+		"cost": 3,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Advanced",
+		"hero": "Gwendolin",
+		"effect": "Deal 70 Damage to all enemy Bloons"
+	},
+	{
+		"name": "Hero Protection",
+		"cost": 3,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Reduce the next damage received from an enemy Bloon to 0"
+	},
+	{
+		"name": "Improved Fortification",
+		"cost": 3,
+		"type": "Power",
+		"rarity": "Uncommon",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Give target friendly Bloon +150 Health but increase its delay by 1"
+	},
+	{
+		"name": "Nature's Clarity",
+		"cost": 3,
+		"type": "Power",
+		"rarity": "Super Rare",
+		"category": "Advanced",
+		"hero": "Obyn",
+		"effect": "Pick 4. Gain 20 Shield per Gold cost of picked card"
+	},
+	{
+		"name": "Pack Protection",
+		"cost": 3,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Advanced",
+		"hero": "Amelia",
+		"effect": "All friendly Bloons gain 40 Shield"
+	},
+	{
+		"name": "Quick Break",
+		"cost": 3,
+		"type": "Power",
+		"rarity": "Common",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Heal Hero for 100 Health"
+	},
+	{
+		"name": "Rapid Shot",
+		"cost": 3,
+		"type": "Power",
+		"rarity": "Uncommon",
+		"category": "Basic",
+		"hero": "Quincy",
+		"effect": "Deal 30 damage to a random enemy Bloon 3 times"
+	},
+	{
+		"name": "Sticky Bomb",
+		"cost": 3,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Exotic",
+		"hero": "",
+		"effect": "Deal 300 Damage to a Large Bloon"
+	},
+	{
+		"name": "Supply Drop",
+		"cost": 3,
+		"type": "Power",
+		"rarity": "Common",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Draw 2 Cards"
+	},
+	{
+		"name": "Wall of Trees",
+		"cost": 3,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Advanced",
+		"hero": "Obyn",
+		"effect": "Gain 120 Shield. When it breaks, gain 2 Gold"
+	},
+	{
+		"name": "Bloon Embiggen",
+		"cost": 4,
+		"type": "Power",
+		"rarity": "Uncommon",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Give all your Bloons +25 Health"
+	},
+	{
+		"name": "Extreme Heat",
+		"cost": 4,
+		"type": "Power",
+		"rarity": "Super Rare",
+		"category": "Exotic",
+		"hero": "Gwendolin",
+		"effect": "Destroy target Bloon that is on fire"
+	},
+	{
+		"name": "For My Next Trick",
+		"cost": 4,
+		"type": "Power",
+		"rarity": "Common",
+		"category": "Exotic",
+		"hero": "Amelia",
+		"effect": "Pick 2. If it's a Bloon, it costs 2 less"
+	},
+	{
+		"name": "Quick Reload",
+		"cost": 4,
+		"type": "Power",
+		"rarity": "Uncommon",
+		"category": "Advanced",
+		"hero": "",
+		"effect": "Reload target Monkey"
+	},
+	{
+		"name": "Reinflated",
+		"cost": 4,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Advanced",
+		"hero": "",
+		"effect": "Summon a random friendly Bloon that was destroyed this game"
+	},
+	{
+		"name": "Return to Sender",
+		"cost": 4,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Advanced",
+		"hero": "",
+		"effect": "Return a Bloon or Monkey to the owner's hand"
+	},
+	{
+		"name": "Parting Gift",
+		"cost": 5,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Exotic",
+		"hero": "",
+		"effect": "Target friendly Monkey damages all enemy Bloons and is removed"
+	},
+	{
+		"name": "Restock",
+		"cost": 5,
+		"type": "Power",
+		"rarity": "Common",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Draw 3 cards"
+	},
+	{
+		"name": "Shrink",
+		"cost": 5,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Turn target Monkey into a Baby Monkey"
+	},
+	{
+		"name": "Glue Storm",
+		"cost": 6,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Increase the delay of ALL Bloons by 1"
+	},
+	{
+		"name": "Quick Ready",
+		"cost": 6,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Exotic",
+		"hero": "",
+		"effect": "Reduce the delay on target Bloon by 1"
+	},
+	{
+		"name": "Red Bloon Storm",
+		"cost": 6,
+		"type": "Power",
+		"rarity": "Common",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Fills your board with Red Bloons"
+	},
+	{
+		"name": "Ceasefire",
+		"cost": 7,
+		"type": "Power",
+		"rarity": "Super Rare",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Enemy Monkeys lose all Ammo"
+	},
+	{
+		"name": "MOAB Strike",
+		"cost": 7,
+		"type": "Power",
+		"rarity": "Super Rare",
+		"category": "Basic",
+		"hero": "",
+		"effect": "Deal 100 damage to enemy Hero"
+	},
+	{
+		"name": "Powerful Slowing Totem",
+		"cost": 7,
+		"type": "Power",
+		"rarity": "Uncommon",
+		"category": "Basic",
+		"hero": "Obyn",
+		"effect": "Increase the delay of all Enemy Bloons by 1"
+	},
+	{
+		"name": "Expert Negotiator",
+		"cost": 8,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Advanced",
+		"hero": "",
+		"effect": "Target enemy Monkey joins your team"
+	},
+	{
+		"name": "Super Monkey Storm",
+		"cost": 8,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Exotic",
+		"hero": "",
+		"effect": "Deal 150 Damage to all enemy Bloons"
+	},
+	{
+		"name": "Double Trouble",
+		"cost": 10,
+		"type": "Power",
+		"rarity": "Rare",
+		"category": "Exotic",
+		"hero": "",
+		"effect": "Create a copy of target friendly Bloon"
+	},
+	{
+		"name": "The Prestige",
+		"cost": 10,
+		"type": "Power",
+		"rarity": "Ultra Rare",
+		"category": "Exotic",
+		"hero": "Amelia",
+		"effect": "Summon 4 random friendly Bloons destroyed this game"
+	}
+]
